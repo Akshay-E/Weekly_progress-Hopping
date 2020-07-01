@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from mpl_toolkits.basemap import Basemap
 
+# function for creating a stereographic projection.
 def ster_plot(fov):
     
     #plt.subplot(1,2,2)
@@ -57,6 +58,7 @@ def ster_plot(fov):
     plt.legend(loc=8,shadow=True,ncol=3,fontsize=15,facecolor='grey')
     plt.show()
 
+ # function for plottimg hops on the projection 
 def hop(lon,lat):
 
     ax2=fig.add_subplot(1,2,2)
